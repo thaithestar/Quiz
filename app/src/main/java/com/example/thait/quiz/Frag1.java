@@ -1,6 +1,7 @@
 package com.example.thait.quiz;
 
 import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -22,6 +23,11 @@ public class Frag1 extends Fragment {
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
+
+    public void next(View view) {
+        Intent intent = new Intent(getActivity(), Frag2.class);
+        startActivity(intent);
+    }
 
     // TODO: Rename and change types of parameters
     private String mParam1;
@@ -105,4 +111,5 @@ public class Frag1 extends Fragment {
         // TODO: Update argument type and name
         void onFragmentInteraction(Uri uri);
     }
+
 }

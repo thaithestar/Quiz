@@ -4,4 +4,7 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_part1">Part1</string>
+    <string name="title_activity_question1">Question1</string>
+    <string name="title_activity_question2">Question2</string>
 </resources>

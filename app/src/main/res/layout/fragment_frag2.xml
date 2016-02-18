@@ -32,7 +32,8 @@
             android:layout_height="wrap_content"
             android:text="ROY"
             android:id="@+id/checkBox2"
-            android:checked="false" />
+            android:checked="false"
+            android:onClick="clicked"/>
 
         <CheckBox
             android:layout_width="wrap_content"
@@ -46,7 +47,8 @@
             android:layout_height="wrap_content"
             android:text="GBIV"
             android:id="@+id/checkBox4"
-            android:checked="false" />
+            android:checked="false"
+            android:onClick="clicked"/>
 
         <CheckBox
             android:layout_width="wrap_content"
@@ -55,11 +57,14 @@
             android:id="@+id/checkBox5"
             android:checked="false" />
 
-        <CheckBox
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="RBG"
-            android:id="@+id/checkBox6"
-            android:checked="false" />
     </LinearLayout>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:id="@+id/button2"
+        android:layout_gravity="center"
+        android:onClick="done"/>
 </FrameLayout>

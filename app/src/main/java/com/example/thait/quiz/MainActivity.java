@@ -1,5 +1,6 @@
 package com.example.thait.quiz;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -11,6 +12,19 @@ import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity {
 
+    private static int points = 0;
+
+    public static void success(double point){
+        points += point;
+    }
+    public static double getPoints(){
+        return points;
+    }
+
+    public void next(View view) {
+        Intent intent = new Intent(this, Frag1.class);
+        startActivity(intent);
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

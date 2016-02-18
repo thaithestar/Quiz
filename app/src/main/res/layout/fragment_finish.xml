@@ -2,22 +2,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.thait.quiz.Frag1">
+    tools:context="com.example.thait.quiz.FinishFrag">
 
     <!-- TODO: Update blank fragment layout -->
 
     <LinearLayout
         android:orientation="vertical"
-        android:layout_width="151dp"
-        android:layout_height="160dp"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
         android:layout_gravity="center">
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Next"
-            android:id="@+id/button5"
+            android:text="Play Again"
+            android:id="@+id/button3"
             android:layout_gravity="center_horizontal"
-            android:onClick="next"/>
+            android:onClick="again"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quit"
+            android:id="@+id/button4"
+            android:layout_gravity="center_horizontal"
+            android:onClick="home"/>
     </LinearLayout>
 </FrameLayout>
