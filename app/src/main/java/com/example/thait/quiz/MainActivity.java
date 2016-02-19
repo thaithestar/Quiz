@@ -39,10 +39,10 @@ public class MainActivity extends AppCompatActivity {
 //
 //                FragQ1 frag1 = new FragQ1();
 //
-////                fragmentManager.add(R.id.fragment_container,frag1);
-////                fragmentTransaction.commit();
-////                FragQ2 frag2 = new FragQ2();
-////                fragmentManager.add(R.id.fragment_container,frag2);
+//                fragmentManager.add(R.id.fragment_container,frag1);
+//                fragmentTransaction.commit();
+//                FragQ2 frag2 = new FragQ2();
+//                fragmentManager.add(R.id.fragment_container,frag2);
 //
 //
 //            }
