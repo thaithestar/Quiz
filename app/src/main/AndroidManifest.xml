@@ -19,12 +19,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Question1"
-            android:label="@string/title_activity_question1"
+            android:name=".Q1"
+            android:label="@string/title_activity_q1"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Question2"
-            android:label="@string/title_activity_question2"
+            android:name=".Q2"
+            android:label="@string/title_activity_q2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Last"
+            android:label="@string/title_activity_last"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
